@@ -12,8 +12,8 @@ Ps: labels.txt means the classes numbers and classes name；Root_imgs and Root_i
 
 PS： Based on the requrements of yolo detector project ：https://github.com/ultralytics/yolov3, you should convert the yolo annotation format into this structure:
 
-### ../coco/images/train2017/000000109622.jpg  # image
-### ../coco/labels/train2017/000000109622.txt  # label
+**../coco/images/train2017/000000109622.jpg  # image**
+**../coco/labels/train2017/000000109622.txt  # label**
 and adjsut the voc2yolo.py line15 and other values! carefully to search some detail params in this code file. you will reciveve the label dirctory in this project root directory.
 
 may be some file structure should be adjusted,**suffle_dataset.py** will help you to suffle the probalility of train.txt and valid.txt in above convted yolo format file we just finished work.
