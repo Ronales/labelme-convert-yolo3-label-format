@@ -6,7 +6,7 @@ In this project, you can convert original labelme annotation json file to yolo f
 
 - python labelme2voc.py Root_imgs Root_imgs_convert --labels labels.txt
 
-Ps: labels.txt means the classes numbers and classes name；Root_imgs Root_imgs_convert represent the original labelme annotation directory and converted voc save path
+Ps: labels.txt means the classes numbers and classes name；Root_imgs and Root_imgs_convert represent the original labelme annotation directory and converted voc save path
 
 - python voc2yolo.py
 
