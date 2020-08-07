@@ -42,5 +42,5 @@ Notice this structure only suitable for Detection annotation task. If Segment ta
 │  ├─images
 │  │  └─2020    (inner file is xxx.jpg per images)
 │  └─labels
-│      └─2020   (inner file is annotationxxx.txt per images)
+│      └─2020   (inner file is annotation_xxx.txt per images)
 ```
