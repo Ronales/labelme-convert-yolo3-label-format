@@ -2,7 +2,7 @@
 In this project, you can convert original labelme annotation json file to yolo format file.
 
 
-# This is an example：
+## This is an example：
 
 - python labelme2voc.py Root_imgs Root_imgs_convert --labels labels.txt
 
@@ -18,6 +18,6 @@ PS： Based on the requrements of yolo detector project ：https://github.com/ul
 
 and adjsut the voc2yolo.py line15 and other values! carefully to search some detail params in this code file. you will reciveve the label dirctory in this project root directory.
 
-may be some file structure should be adjusted,**suffle_dataset.py** will help you to suffle the probalility of train.txt and valid.txt in above convted yolo format file we just finished work.
+may be some file structure should be adjusted,**suffle_dataset.py** will help you to random scramble the proportion of train.txt and valid.txt in above convted yolo format file we just finished work.
 
 Last, joy it!
