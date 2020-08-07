@@ -18,7 +18,7 @@ PS： Based on the requrements of yolo detector project ：https://github.com/ul
 ../coco/labels/train2017/000000109622.txt  # label
 ```
 
-and adjsut the voc2yolo.py line15 and other values! carefully to search some detail params in this code file. you will reciveve the label dirctory in this project root directory.
+and adjsut the voc2yolo.py line15、line 69  and other values! carefully to search some detail params in this code file. you will reciveve the label dirctory in this project root directory.
 
 may be some file structure should be adjusted,**suffle_dataset.py** will help you to random scramble the proportion of train.txt and valid.txt in above convted yolo format file we just finished work.
 
