@@ -25,15 +25,15 @@ Last, joy it!
 Notice this structure only suitable for Detection annotation task. If Segment task , you should add the SegmentationObject and SegmentationClass directory, they represent the mask information.
 
 **Lableme convert voc format structure** 
-···
+```
 ├─VOC2020_norelarge
 │  ├─Annotations                  (xml annotation file)
 │  ├─AnnotationsVisualization    
 │  ├─ImageSets                    (image list txt file)
 │  │  └─Main
 │  ├─JPEGImages                   (original image file)
-···
-···
+```
+```
 **VOC convert yolo format structure**   （windows tree command ： tree D:/ > list.txt）
 
 ├─VOC2020_onlysupplement
@@ -41,4 +41,4 @@ Notice this structure only suitable for Detection annotation task. If Segment ta
 │  │  └─2020    (inner file is xxx.jpg per images)
 │  └─labels
 │      └─2020   (inner file is annotationxxx.txt per images)
-···
+```
