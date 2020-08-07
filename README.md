@@ -21,3 +21,23 @@ and adjsut the voc2yolo.py line15 and other values! carefully to search some det
 may be some file structure should be adjusted,**suffle_dataset.py** will help you to random scramble the proportion of train.txt and valid.txt in above convted yolo format file we just finished work.
 
 Last, joy it!
+
+Notice this structure only suitable for Detection annotation task. If Segment task , you should add the SegmentationObject and SegmentationClass directory, they represent the mask information.
+
+**Lableme convert voc format structure** 
+├─VOC2020_norelarge
+│  ├─Annotations                  (xml annotation file)
+│  ├─AnnotationsVisualization    
+│  ├─ImageSets                    (image list txt file)
+│  │  └─Main
+│  ├─JPEGImages                   (original image file)
+
+
+**VOC convert yolo format structure**   （windows tree command ： tree D:/ > list.txt）
+
+├─VOC2020_onlysupplement
+│  ├─images
+│  │  └─2020    (inner file is xxx.jpg per images)
+│  └─labels
+│      └─2020   (inner file is annotationxxx.txt per images)
+
