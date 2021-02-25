@@ -45,8 +45,8 @@ Notice this structure only suitable for Detection annotation task. If Segment ta
 │      └─2020   (inner file is annotation_xxx.txt per images)
 ```
 
-
-Q&A：
+```
+**Q&A：**
 
 BUG1：TypeError: function takes exactly 1 argument (3 given)
 A：You should notice the rectangle draw function should't draw gray images, you can modify the function parameters color=(255) instead color=colors
@@ -54,3 +54,4 @@ A：You should notice the rectangle draw function should't draw gray images, you
 BUG2: AttributeError: module 'labelme.utils' has no attribute 'draw_instances'
 A: Back to version 3.16.1
 
+```
